@@ -60,6 +60,7 @@
     background-color: #FFFF00;
     text-transform: uppercase;
     font-size: 1rem;
+    cursor: pointer;
  }
 
  .twenty--five {
@@ -72,7 +73,9 @@
  }
 
  .bg-red {
-  background-color: #fff;
+  background-color: red;
   cursor: pointer;
  }
 
+
+ 
