@@ -11,30 +11,19 @@ let win = document.querySelector('.win');
 
 
 
+// click numbers 1 to 80
+boxes.forEach(boxes => boxes.addEventListener('click', () => {
+    boxes.classList.toggle('bg-red');
+}))
 
-// click numbers 1 to 40
-contOne.addEventListener('click', (e) => {
-    e.target.classList.toggle('bg-red');
-
-}); 
-
-// click numbers 41 to 80
-contTwo.addEventListener('click', (e) => {
-    e.target.classList.toggle('bg-red');
-
-});
-
-
-erase.addEventListener('click', (e) => {
-    e.target.classList.remove('bg-red');
+// Click to Erase all your numbers
+erase.addEventListener('click', () => {
+   
 });
 
 
 play.addEventListener('click', () => {
-    let minm = 1;
-    let maxm = 80;
+   
     const play = Math.trunc(Math.random() * 80) + 1;
-    console.log(play);
-    
-    
+   
 });
