@@ -22,8 +22,12 @@ erase.addEventListener('click', () => {
 });
 
 
+
+
 play.addEventListener('click', () => {
+    Math.floor((Math.random()*1000000)+1);
+  
    
-    const play = Math.trunc(Math.random() * 80) + 1;
-   
-});
+}); 
+
+
